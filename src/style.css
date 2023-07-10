@@ -1,0 +1,28 @@
+button {
+    width: 100px;
+    padding: 10px 16px;
+    outline: none;
+    border: none;
+    background-color: #1773EB;
+    border-radius: 8px;
+    color: #fff;
+    transition: 0.1s ease-in;
+}
+
+button:hover {
+    background-color: #08499E;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.cross:hover {
+    cursor: pointer;
+}
